@@ -50,7 +50,7 @@ const App = () => {
 
     return (
         /* <RotatableResizableComp position_spec={this.position_spec}/>*/
-        <MovingComponent position_spec={position_spec}/>
+        <MovingComponent position_spec={position_spec} useBounds={true}/>
         //<MoveableComponent {...initData}/>
     );
 
